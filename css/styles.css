@@ -1,3 +1,8 @@
-body {
-    background: darkcyan;
+/*Define the colour palette, to reuse it*/
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #f83909f5;
+    --color-headings: #463096;
+    --color-body: #918ca4;
 }
