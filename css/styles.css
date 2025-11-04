@@ -284,3 +284,26 @@ a {
     }
 }
 
+/*Cards*/
+/*Structure*/
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px whitesmoke;
+    overflow: hidden;
+}
+
+.card__header, 
+.card__body {
+    padding: 2rem 3rem;
+}
+
+/*Skins, OO CSS*/
+.card--primary .card__header {
+    background: var(--color-primary);
+    color: whitesmoke;
+}
+
+.card--secondary .card__header {
+    background: var(--color-secondary);
+    color: whitesmoke;
+}
