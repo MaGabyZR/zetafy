@@ -7,6 +7,10 @@
     --color-body: #918ca4;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 /*Typography*/
 html {
     /*62.5% of 16px = 10px*/
@@ -40,7 +44,7 @@ h3 {
 p {
     margin-top: 0;
 }
-
+/*desktop version*/
 @media screen and (min-width: 1024px) {
     body {
         font-size: 1.8rem;
@@ -80,7 +84,7 @@ a {
 .link-arrow:hover::after {
     margin-left: 10px;
 }
-
+/*desktop version*/
 @media screen and (min-width: 1024px) {
     .link-arrow {
         font-size: 1.5rem;
@@ -110,7 +114,7 @@ a {
 .badge--small {
     font-size: 1.6rem;
 }
-
+/*desktop version*/
 @media screen and (min-width: 1024px) {
     .badge {
         font-size: 1.5rem;
@@ -145,6 +149,7 @@ a {
     margin-bottom: 1rem;
 }
 
+/*desktop version*/
 @media screen and (min-width: 1024px) {
     .list--tick .list__item {
         padding-left: 0;
@@ -172,5 +177,70 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Buttons*/
+/*Structure*/
+.btn {
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/*Skins, OO CSS*/
+.btn--primary {
+    background: var(--color-primary);
+    color:whitesmoke
+}
+
+.btn--primary:hover {
+    background: #e86442;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: whitesmoke;
+}
+
+.btn--secondary:hover {
+    background: darkcyan
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: whitesmoke;
+}
+
+.btn--accent:hover {
+    background:#3d7ed2;
+}
+
+.btn--outline {
+    background: whitesmoke;
+    color: var(--color-headings);
+    border: 2px solid var(--color-headings);
+}
+
+.btn--outline:hover {
+    background: var(--color-headings);
+    color: whitesmoke;
+}
+
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}
+/*desktop version*/
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
 }
 
