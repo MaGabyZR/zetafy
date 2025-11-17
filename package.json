@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Coding school webpage protype.",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
     "build": "parcel build index.html --dist-dir dist"
   },

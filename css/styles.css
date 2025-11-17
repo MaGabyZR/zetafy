@@ -635,7 +635,7 @@ a {
 /*Structure*/
 .block {
     --padding-vertical: 6rem;
-    padding: var(--padding-vertical 2rem);
+    padding: var(--padding-vertical);
 }
 
 .block__header {
