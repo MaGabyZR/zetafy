@@ -28,7 +28,7 @@
       <nav class="nav collapsible">
         <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
-          <use xlink:href="images/sprite.svg#menu"></use>
+          <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Hosting</a></li>
@@ -76,7 +76,7 @@
         />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
-            <use xlink:href="images/sprite.svg#search"></use>
+            <use :href="images/sprite.svg#search"></use>
           </svg>
           Search
         </button>
@@ -166,7 +166,7 @@
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
+              <use href="images/sprite.svg#easy"></use>
             </svg>
           </span>
           <h3 class="feature__heading">Super Easy to Use</h3>
@@ -193,7 +193,7 @@
         <div class="feature__content" data-aos="zoom-in-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#growth"></use>
+              <use href="images/sprite.svg#growth"></use>
             </svg>
           </span>
           <h3 class="feature__heading">Super Fast to Expand</h3>
@@ -220,7 +220,7 @@
         <div class="feature__content" data-aos="slide-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#settings"></use>
+              <use href="images/sprite.svg#settings"></use>
             </svg>
           </span>
           <h3 class="feature__heading">WordPress made easy</h3>
@@ -247,7 +247,7 @@
         <div class="feature__content" data-aos="zoom-in-left">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#clock"></use>
+              <use href="images/sprite.svg#clock"></use>
             </svg>
           </span>
           <h3 class="feature__heading">Support 24 hours 7 days a week</h3>
@@ -292,7 +292,7 @@
             <div class="media">
               <div class="media__image"></div>
               <svg class="icon icon--primary">
-                <use xlink:href="images/sprite.svg#snap"></use>
+                <use href="images/sprite.svg#snap"></use>
               </svg>
               <div class="media__body">
                 <h3 class="media__title">Easy start and managed updates</h3>
@@ -308,7 +308,7 @@
             <div class="media">
               <div class="media__image"></div>
               <svg class="icon icon--primary">
-                <use xlink:href="images/sprite.svg#growth"></use>
+                <use href="images/sprite.svg#growth"></use>
               </svg>
               <div class="media__body">
                 <h3 class="media__title">Staging, GIT & WP-CLI</h3>
@@ -324,7 +324,7 @@
             <div class="media">
               <div class="media__image"></div>
               <svg class="icon icon--primary">
-                <use xlink:href="images/sprite.svg#wordpress"></use>
+                <use href="images/sprite.svg#wordpress"></use>
               </svg>
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
@@ -357,7 +357,7 @@
               />
               <span class="icon-container icon-container--accent">
                 <svg class="icon icon--white icon--small">
-                  <use xlink:href="images/sprite.svg#quotes"></use>
+                  <use href="images/sprite.svg#quotes"></use>
                 </svg>
               </span>
             </div>
@@ -366,18 +366,18 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
                 vitae nam ex.
               </p>
-              <footer>
+              <div>
                 <div class="media">
                   <div class="media__image"></div>
                   <svg class="icon icon--primary quote__line">
-                    <use xlink:href="images/sprite.svg#line"></use>
+                    <use href="images/sprite.svg#line"></use>
                   </svg>
                   <div class="media__body">
                     <h3 class="media__title quote__author">John Doe</h3>
                     <p class="quote__company">Karat CIA.</p>
                   </div>
                 </div>
-              </footer>
+              </div>
             </blockquote>
           </div>
         </div>
@@ -401,12 +401,12 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
             <svg class="icon icon--white collapsible_chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -416,12 +416,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">COMPANY</h2>
             <svg class="icon icon--white collapsible_chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -431,12 +431,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
             <svg class="icon icon--white collapsible_chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -446,12 +446,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
             <svg class="icon icon--white collapsible_chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -460,10 +460,10 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
           <p class="footer__copyright">Copyright 2025 CodeWhisperer Mom</p>
-        </section>
+        </div>
       </div>
     </footer>
     <script src="js/main.js"></script>
